@@ -1,0 +1,56 @@
+.gradient-background {
+  background: linear-gradient(300deg, #99FFFF,#7CB9E8, #00308F);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+body{
+  font-size: 1.5em;
+}
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+h2{
+  font-size: 2em;
+}
+
+.dog-img{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+ 
+}
+.navhead{
+  font-size: 40px;
+  font-weight: 600;
+  font-family: sans-serif;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding:10px;
+}
+.navimg{
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  
+}
+a:hover{
+  text-decoration:underline;
+  text-decoration-thickness: 5px;
+  text-decoration-color:#00308F;
+  font-weight: 500;
+}
+
